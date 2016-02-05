@@ -1,0 +1,63 @@
+[20/Aug/2014:11:00:00 +0100] 3582b6cd-9e25-4ec9-a00b-d5a6acd4c388 82.132.133.73 "POST /auth/v1/token HTTP/1.1" 552 200 160 0.041  Basic(mymobile:[mymobile][-]) - -
+[20/Aug/2014:11:00:00 +0100] c097390b-0d1e-4b10-9df7-bb1f24345b79 82.132.133.70 "GET /phone/consumer/CURRENT HTTP/1.1" 325 403 244 0.309  Bearer(-:[-][ee71f33655a7]) - -
+[20/Aug/2014:11:00:00 +0100] 1f820aee-7fb7-41dc-9af1-e0ed158d64f0 82.132.133.73 "GET /phone/consumer/CURRENT HTTP/1.1" 382 200 146 0.087  Bearer(mymobile:[-][53b94fd67f25]) [product_id/CONSUMER_PHONE has_product || sim_possession:+447912346554] -
+[20/Aug/2014:11:00:00 +0100] fb094721-6cf5-4883-929a-c8dabaaed83e 82.132.203.120 "POST /auth/vX/auth/password_o2 HTTP/1.1" 614 200 412 0.687  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:00 +0100] e2f80b8f-133b-4022-8ed9-b0a358286ad6 82.132.133.73 "GET /phone/consumer/CURRENT HTTP/1.1" 325 403 244 0.044  Bearer(-:[-][eba9a51c1b75]) - -
+[20/Aug/2014:11:00:00 +0100] 0670ed6c-75a7-43dc-8656-98c866d53c54 82.132.203.120 "POST /auth/vX/token HTTP/1.1" 824 200 209 0.036  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:00 +0100] 3bfc7415-10aa-4700-87a2-3df00e3285ad 82.132.133.70 "GET /phone/consumer/CURRENT HTTP/1.1" 325 403 244 0.069  Bearer(-:[-][ee71f33655a7]) - -
+[20/Aug/2014:11:00:00 +0100] e88668f5-e4f1-452c-87cd-54f016ad51b5 82.132.133.70 "GET /identity/v1/customer/CURRENT/product?product_types=PAYM,PAYG,O2_EMAIL HTTP/1.1" 404 403 244 0.046  Bearer(-:[-][5f493c4daff2]) - -
+[20/Aug/2014:11:00:00 +0100] e2780e57-50af-4a4a-b185-7714f6795dc4 82.132.133.70 "GET /identity/v1/customer/CURRENT/product?product_types=PAYM,PAYG,O2_EMAIL HTTP/1.1" 404 200 85 0.631  Bearer(accounts:[-][a9ba014eebf5]) [user_id signed_in:13000000000002497080] -
+[20/Aug/2014:11:00:00 +0100] a4e00eae-80d5-4b3a-b00a-6e0e17360c1a 82.132.203.120 "GET /auth/vX/userinfo HTTP/1.1" 338 200 353 0.084  Bearer(credhandler:[-][adefe55fac9c]) - -
+[20/Aug/2014:11:00:00 +0100] 2d8af3b0-7d9b-4cf4-a987-2e5379f7ac87 82.132.133.76 "POST /auth/v1/token HTTP/1.1" 536 200 209 0.043  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:00 +0100] 57adeae2-e544-45aa-9e67-a0f626c655af 82.132.133.76 "POST /auth/v1/token HTTP/1.1" 456 200 160 0.036  Basic(mymobile:[mymobile][-]) - -
+[20/Aug/2014:11:00:00 +0100] fa8cd5ad-3fe7-449b-96d1-ef073b15a9a6 82.132.133.70 "GET /phone/consumer/CURRENT HTTP/1.1" 382 200 146 1.411  Bearer(mymobile:[-][16cf01fb0c50]) [product_id/CONSUMER_PHONE has_product || sim_possession:+447894277610] -
+[20/Aug/2014:11:00:00 +0100] 9e284d60-e4bc-46cd-9de5-fe799534b997 82.132.203.120 "POST /auth/vX/auth/password_o2 HTTP/1.1" 675 400 95 0.671  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:00 +0100] ce143c59-a02b-4953-ba01-9da9e1ec5ff0 46.137.108.81 "POST /auth/token HTTP/1.1" 789 200 209 0.301  Basic(myo2appmiddleware:[myo2appmiddleware][-]) - -
+[20/Aug/2014:11:00:00 +0100] 58f2a16e-25fb-498a-8a8b-d5e5ae32a40c 82.132.133.79 "POST /auth/v1/token HTTP/1.1" 561 200 160 0.381  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:00 +0100] 1d54a74f-e021-48d5-a1dd-9d4647ebc9db 82.132.133.76 "GET /phone/consumer/CURRENT HTTP/1.1" 382 403 299 0.489  Bearer(-:[-][0078dbf23270]) - -
+[20/Aug/2014:11:00:00 +0100] ea75023e-7259-48c9-b816-8867828774e9 82.132.203.120 "POST /auth/vX/authrequirement HTTP/1.1" 571 200 104 0.277  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:00 +0100] 50de74f3-05d2-49e7-b8cb-0956f5bacd4b 82.132.133.70 "GET /identity/v1/customer/CURRENT/product/BILL/relationship?product_types=PAYM&relationship_types=BILLING HTTP/1.1" 435 200 2 0.553  Bearer(accounts:[-][5b563e1fa383]) [user_id signed_in:13000000000002497080] -
+[20/Aug/2014:11:00:00 +0100] 6529418a-2df6-4370-b905-f1fe2bc2203d 82.132.203.120 "POST /auth/vX/auth/msisdn_forward HTTP/1.1" 681 200 186 0.040  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:01 +0100] 5adab659-8054-41c8-8ac3-a10b8bc6b5de 82.132.133.79 "GET /auth/v1/userinfo HTTP/1.1" 351 200 540 0.125  Bearer(accounts:[-][c72983133797]) - -
+[20/Aug/2014:11:00:01 +0100] 86886d16-15a5-40ef-a089-68da19aa16ca 82.132.133.79 "POST /auth/v1/token HTTP/1.1" 525 200 209 0.038  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:01 +0100] ee3ac6b9-1232-4338-8669-9a5456b1143e - "GET /api-gw-app-off-duty/monitoring/healthcheck HTTP/1.0" 60 200 2 0.001  (-:[-][]) - -
+[20/Aug/2014:11:00:01 +0100] 6f849496-1947-4015-97a9-30790dec0986 82.132.203.118 "POST /auth/vX/auth/msisdn_forward/0d00bf56-9580-499b-a36b-a99e8d859d9d HTTP/1.1" 546 204 0 0.038  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:01 +0100] a19657c1-0b83-4934-9eaf-8d4565ac0135 82.132.133.76 "POST /identity/v1/identity/CURRENT HTTP/1.1" 415 204 0 0.468  Bearer(accounts:[-][d78c97c0183e]) [user_id signed_in:12748309000236677237] -
+[20/Aug/2014:11:00:01 +0100] 01c5f1b6-f1b0-4f75-b779-4f342a649542 82.132.203.120 "POST /auth/vX/auth/msisdn_forward/a5975667-3db4-491b-83cc-ebc8eee622b1 HTTP/1.1" 546 204 0 0.034  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:01 +0100] 047b6b8a-639f-4890-a864-c198f79c9b1a 82.132.203.120 "POST /auth/vX/auth/msisdn_forward/0d00bf56-9580-499b-a36b-a99e8d859d9d/complete HTTP/1.1" 588 200 249 0.047  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:01 +0100] eb4596fd-8d99-4314-b0c5-b8fd67870b9c 82.132.203.118 "POST /auth/vX/authrequirement HTTP/1.1" 623 200 102 0.704  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:01 +0100] 75dedca4-fed7-4db7-99b9-4661ca24f9dd 82.132.130.197 "POST /auth/v1/token HTTP/1.1" 598 200 209 0.214  Basic(changingworlds:[changingworlds][-]) - -
+[20/Aug/2014:11:00:01 +0100] 17ada758-707c-49b2-9b07-515fd6d10500 82.132.203.140 "POST /messaging/vX/otac/phone/redeem HTTP/1.1" 525 204 0 0.048  Basic(authserver:[authserver][-]) - -
+[20/Aug/2014:11:00:01 +0100] 172f03e5-358c-4854-a631-dca381e920a5 82.132.133.79 "GET /identity/v1/customer/CURRENT/product?product_types=PAYM,PAYG,O2_EMAIL HTTP/1.1" 404 200 176 0.597  Bearer(accounts:[-][03978f36e742]) [user_id signed_in:12975258624938937676] -
+[20/Aug/2014:11:00:01 +0100] f35553b5-bcbd-42f5-a54d-64e920d169c1 82.132.133.76 "GET /auth/v1/userinfo HTTP/1.1" 351 200 496 0.080  Bearer(accounts:[-][88ce88f6693c]) - -
+[20/Aug/2014:11:00:01 +0100] 81371c22-fb00-461b-83b3-690274f27dc3 82.132.130.197 "GET /auth/v1/userinfo?access_token=f0e0f706-0ddd-4382-81b7-356f27ba62ef HTTP/1.1" 338 200 201 0.108  (changingworlds:[-][]) - -
+[20/Aug/2014:11:00:01 +0100] 7a6f1629-2611-43c9-9c5c-1a546e855c00 82.132.133.79 "POST /auth/v1/token HTTP/1.1" 525 200 209 0.036  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:01 +0100] f2ae1c95-5908-4b46-9c15-58ab42b4b978 82.132.133.70 "POST /auth/v1/token HTTP/1.1" 525 200 209 0.039  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:02 +0100] cc936a9a-c8e9-4562-a8b2-84460b53c90c 82.132.133.70 "GET /identity/v1/customer/CURRENT/product?product_types=PAYM,PAYG HTTP/1.1" 395 200 86 0.088  Bearer(accounts:[-][abe1c62c12fc]) [user_id signed_in:12847169723195900103] -
+[20/Aug/2014:11:00:02 +0100] 22478676-8b1f-4837-89ec-4659864fa013 82.132.203.120 "POST /auth/vX/auth/msisdn_forward/eb679d8a-58d6-4be4-803a-f4b08273ad73 HTTP/1.1" 546 204 0 0.034  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] 1b0d4409-7161-4c96-a885-df5f99005661 82.132.133.79 "POST /auth/v1/token HTTP/1.1" 456 200 160 0.030  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:02 +0100] 3bab2197-a14a-4bd6-8cbd-63fb46034b5b 82.132.203.144 "POST /identity/vX/identity/CURRENT/credentials HTTP/1.1" 478 204 0 3.943  Bearer(credhandler:[-][4688838016c4]) [user_id signed_in || recovery:12584671709793918656] -
+[20/Aug/2014:11:00:02 +0100] 0530cf61-345b-4793-bd7c-66ae7507349e 82.132.133.79 "POST /auth/v1/token HTTP/1.1" 552 200 209 0.034  Basic(mymobile:[mymobile][-]) - -
+[20/Aug/2014:11:00:02 +0100] faf50e22-7293-40bc-b5c1-d414713dcc33 - "GET /spider-gs2b-7-mon/monitoring/healthcheck HTTP/1.0" 58 200 2 0.001  (-:[-][]) - -
+[20/Aug/2014:11:00:02 +0100] d3167813-bf2e-4c71-9b5b-84eb0918811a 46.137.108.81 "POST /auth/token HTTP/1.1" 788 200 209 0.039  Basic(myo2appmiddleware:[myo2appmiddleware][-]) - -
+[20/Aug/2014:11:00:02 +0100] 680b4774-7e70-4915-8dc9-eddafa4d620a 82.132.203.140 "POST /auth/vX/auth/select HTTP/1.1" 624 201 102 0.034  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] 7464e6e6-d5c4-4828-98a9-897d796626fd 82.132.133.79 "POST /auth/v1/token HTTP/1.1" 491 400 78 0.028  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:02 +0100] 6e4df4a8-dafc-4a51-a020-69f095e8de2d 82.132.203.120 "POST /auth/vX/auth/msisdn_forward/1566712e-471c-42ae-949f-457c5ad0ecd9/complete HTTP/1.1" 588 200 282 0.389  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] 059011f4-9d42-4761-b056-ec6398abf1ff 82.132.203.120 "POST /auth/vX/authrequirement HTTP/1.1" 571 200 104 0.094  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] e7bc1d5c-a760-43cd-a01b-adb6a4d3606c 82.132.133.70 "POST /auth/v1/token HTTP/1.1" 552 200 160 0.460  Basic(accounts:[accounts][-]) - -
+[20/Aug/2014:11:00:02 +0100] 0754f780-b337-47a0-b7a9-a09510b0b7ef 82.132.133.76 "GET /phone/consumer/CURRENT/signedIn HTTP/1.1" 334 403 244 0.154  Bearer(-:[-][b05a637e2315]) - -
+[20/Aug/2014:11:00:02 +0100] a1a8e967-03e2-4652-987e-59c8c7a94704 82.132.203.120 "POST /auth/vX/auth/msisdn_forward HTTP/1.1" 681 200 186 0.030  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] 216f0e3d-f97c-41b4-b6b3-5c2b174f04e5 - "GET /spider-gs2b-7-mon/monitoring/healthcheck HTTP/1.0" 58 200 2 0.001  (-:[-][]) - -
+[20/Aug/2014:11:00:02 +0100] 6a4d86f2-4de4-46e3-8497-4cf8f478d28d 82.132.133.79 "GET /identity/v1/customer/CURRENT/product/BILL/relationship?product_types=PAYM&relationship_types=BILLING HTTP/1.1" 435 200 221 0.528  Bearer(accounts:[-][3816a5b39579]) [user_id signed_in:12975258624938937676] -
+[20/Aug/2014:11:00:02 +0100] 37d02ee1-a570-48da-9517-3e96da94692c 82.132.203.144 "DELETE /auth/vX/authcode/AUTHCODE HTTP/1.1" 350 204 0 0.068  Bearer(credhandler:[-][045a8e41e57a]) - -
+[20/Aug/2014:11:00:02 +0100] 84e0fa6f-62ea-4ee1-bb14-0af27f9b76af 82.132.133.79 "GET /identity/v1/customer/CURRENT/product?product_types=PAYM,PAYG,O2_EMAIL HTTP/1.1" 404 403 244 0.052  Bearer(-:[-][8f3d573e04d4]) - -
+[20/Aug/2014:11:00:02 +0100] 208fd21e-e43c-4e18-967b-5bfba1e381b5 82.132.133.76 "POST /auth/v1/token HTTP/1.1" 456 200 160 0.095  Basic(mymobile:[mymobile][-]) - -
+[20/Aug/2014:11:00:02 +0100] ffcd58ca-61dc-4e6f-ac17-86ec2a314576 82.132.133.70 "POST /auth/v1/token HTTP/1.1" 456 200 160 0.065  Basic(mymobile:[mymobile][-]) - -
+[20/Aug/2014:11:00:02 +0100] 4cb94c78-91d1-496d-971d-d750f54135e1 82.132.133.79 "GET /phone/consumer/CURRENT HTTP/1.1" 325 403 244 0.051  Bearer(-:[-][62af528e807d]) - -
+[20/Aug/2014:11:00:02 +0100] f0b74c06-e2a6-4e17-bff1-f5ac54976665 82.132.203.120 "POST /auth/vX/authrequirement HTTP/1.1" 623 200 102 0.122  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] 1a3d51f1-6fa8-48d0-b9b2-d6a3072ce8f4 82.132.133.76 "GET /phone/consumer/CURRENT/signedIn HTTP/1.1" 334 403 244 0.037  Bearer(-:[-][2b744c02c8b5]) - -
+[20/Aug/2014:11:00:02 +0100] 596b1767-08cd-47be-ac22-cde0b0dcd216 82.132.133.70 "POST /auth/v1/token HTTP/1.1" 456 200 160 0.043  Basic(mymobile:[mymobile][-]) - -
+[20/Aug/2014:11:00:02 +0100] 6ba7160f-267c-4aa2-b988-2bd2b6a50192 82.132.203.144 "POST /auth/vX/token HTTP/1.1" 690 200 209 0.032  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] 454195a8-5939-4c29-a48c-2e9f5a9e1930 82.132.133.70 "GET /phone/consumer/CURRENT HTTP/1.1" 382 403 299 0.042  Bearer(-:[-][43880d5ea751]) - -
+[20/Aug/2014:11:00:02 +0100] 1fd3d56a-2a74-4523-8e9d-600f526dd390 82.132.203.120 "POST /auth/vX/auth/msisdn_forward/9b27ba03-d61c-46a2-aa4f-1cb82f837d12 HTTP/1.1" 570 204 0 0.028  Basic(credhandler:[credhandler][-]) - -
+[20/Aug/2014:11:00:02 +0100] bbd1be68-0529-4924-bfce-c0fb449974c9 82.132.203.144 "GET /a
